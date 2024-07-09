@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root
+{
+    --fontetexto: "Playfair Display", serif;
+}
+*
+{
+    font-family: var(--fontetexto);
+}
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    margin: 65px;
+    text-align: center;
+}
+nav ul li 
+{
+    margin-left: 10em;
+    margin-top: 56px;
+}
+.cabecalho a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.cabecalho a:hover
+{
+    text-decoration: overline;
+    filter: drop-shadow(0px 0px 0.1px white);
+    letter-spacing: 1px;
+}
+.imgcabecalho 
+{
+    width: 7em;
+    margin-top: -55px;
+}
+header 
+{
+    background-color: #875062;
+    height: 14em;
+    margin-top: -65.5px;
+    width: 118.9em;
+    margin-left: -8px;
+    position: relative;
+    border-radius: 0px 0px 1em 1em;
+    border: solid 1px indianred;
+
+}
+.acaiGranola 
+{
+    margin-left: -8px;
+    width: 118.9em;
+    height: 61em;
+    margin-top: -220px;
+}
+body 
+{
+    background-color: white;
+    overflow-x: hidden;
+    background-color: #854d58;
+}
+.origemAcai
+{
+    text-align: center;
+    border: 1px solid #875062;
+    width: 15em;
+    margin-left: 10em;
+    font-size: 50px;
+    border-radius: 2px;
+    margin-top: -10px;
+    position: relative;
+    background-color: #875069;
+    box-shadow: 4px 0px 10px 0px black;
+    color: white;
+    text-shadow: red 1px 1px 1px;
+    display: block;
+}
+article
+{
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    width: 85em;
+    margin-left: 53px;
+    margin-top: -70px;
+    border: solid 1px #875062;
+    border-radius: 2px 2px 5px 5px;
+    background-color: white;
+    
+}
+.acaiTigela
+{
+    width: 30em;
+    border-radius: 2px;
+    margin-left: 8em;
+}
+li 
+{
+    text-align: left;
+}
+.acaiPuro
+{
+    margin-left: 13em;
+    width: 30em;
+    border-radius: 2px;
+}
+.acaiGranola2
+{
+    margin-left: 17em;
+    width: 30em;
+    border-radius: 2px;
+}
+.gif 
+{
+    margin-top: 38px;
+    height: 50px;
+    width: 40px;
+    margin-left: -10px;
+    padding: 10px;
+    float: right;
+  
+}
+h1,h2,h3
+{
+    text-shadow: purple 1px 1px 1px;
+}
+iframe 
+{
+    border-radius: 7px;
+    border: solid 1px #854d58;
+}
+footer 
+{
+    border: solid 1px indianred;
+    margin-top: 5px;
+    width: 106.6em;
+    height: 8em;
+    background-color: #914554;
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(nevecaindo.gif);
+    max-width: 100.7%;
+    margin-left: -7px;
+}
+/*responsividade*/
+
+@media (max-width: 1800px)
+{
+    header 
+    {
+        min-height: 11em;
+        max-height: 11em;
+        margin-left: -5px;
+        margin-right: auto;
+        width: 30em;
+        min-width: 102%;
+        max-width: 102%;
+    }
+    .imgcabecalho
+    {
+        min-width: 5em;
+        max-width: 78%;
+        float: right;
+    }
+    nav 
+    {
+        margin-left: -125px;
+    }
+    nav ul li 
+    {
+         margin-left: 10px;
+         font-size: 10px;
+         margin-right: auto;
+    }
+    .diferenciais
+    {
+        margin-left: -35px;
+    }
+  
+    .revendedor,.home,.diferenciais 
+    {
+        margin-top: 4em;
+        margin-right: auto;
+    }
+    .gif 
+    {
+        visibility: hidden;
+        
+    }
+    .cabecalho a:hover
+    {
+    text-decoration: none;
+    filter: drop-shadow(0px 0px 0.1px white);
+    letter-spacing: 0.1px;
+    }
+    .home 
+    {
+        text-decoration: overline  rgb(66, 6, 66);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .diferenciais:hover
+    {
+        text-decoration: overline white;
+    }
+    .revendedor:hover
+    {
+        text-decoration: overline white;
+    }
+    .acaiGranola
+    {   
+        margin-top: 1px;
+        border-radius: 2px;
+        height: 23em;
+        max-width: 104%;
+        max-height: 30em;
+    }
+    .origemAcai
+    {
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -10px;
+        max-width: 100%;
+        
+    }
+    article
+    {
+        margin-left: -1px;
+        font-size: 16px;
+        padding: -1px;
+        margin-top: 20px;
+        max-width: 87%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .acaiPuro,.acaiTigela,.acaiGranola2
+    {
+        margin-left: -60px;
+        width: 27.8em;
+        border-radius: 10px;
+    }
+    iframe 
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 28em;
+        max-width: 100%;
+    }
+    .revendedor 
+    {
+        margin-left: 15px;
+    }
+   footer 
+   {
+    max-width: 102.8%;
+    
+   }
+
+}
